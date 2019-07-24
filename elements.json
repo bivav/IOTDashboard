@@ -1,0 +1,181 @@
+[{
+	"data": {
+		"id": "G-A_00",
+		"name": "G-A",
+		"risk_score": 25.7697,
+		"threat_level": "low",
+		"status": "normal"
+	},
+	"position": {
+		"x": 100,
+		"y": 250
+	}
+},
+{
+	"data": {
+		"id": "G-B_00",
+		"name": "G-B",
+		"risk_score": 50.76671,
+		"threat_level": "medium",
+		"status": "anomaly"
+	},
+	"position": {
+		"x": 180,
+		"y": 180
+	}
+},
+{
+	"data": {
+		"id": "TA-A1_00",
+		"name": "TA-A1",
+		"risk_score": 29.7691,
+		"threat_level": "low",
+		"status": "normal"
+	},
+	"position": {
+		"x": 180,
+		"y": 320
+	}
+},
+{
+	"data": {
+		"id": "TA-A2_00",
+		"name": "TA-A2",
+		"risk_score": 28.76123,
+		"threat_level": "low",
+		"status": "normal"
+	},
+	"position": {
+		"x": 260,
+		"y": 250
+	}
+}, {
+	"data": {
+		"id": "TH-A1_00",
+		"name": "TH-A1",
+		"risk_score": 28.59123,
+		"threat_level": "low",
+		"status": "normal"
+	},
+	"position": {
+		"x": 370,
+		"y": 250
+	}
+},
+{
+	"data": {
+		"id": "TA-B1_00",
+		"name": "TA-B1",
+		"risk_score": 90.7123,
+		"threat_level": "high",
+		"status": "quarantine"
+	},
+	"position": {
+		"x": 440,
+		"y": 180
+	}
+}, {
+	"data": {
+		"id": "TA-B2_00",
+		"name": "TA-B2",
+		"risk_score": 26.9123,
+		"threat_level": "low",
+		"status": "normal"
+	},
+	"position": {
+		"x": 440,
+		"y": 320
+	}
+},
+{
+	"data": {
+		"id": "TH-B1_00",
+		"name": "TH-B1",
+		"risk_score": 29.97123,
+		"threat_level": "low",
+		"status": "normal"
+	},
+	"position": {
+		"x": 500,
+		"y": 250
+	}
+},
+
+{
+	"data": {
+		"id": "ab",
+		"source": "G-A_00",
+		"target": "G-B_00"
+	}
+},
+{
+	"data": {
+		"id": "cd",
+		"source": "TA-A1_00",
+		"target": "TA-A2_00"
+	}
+},
+{
+	"data": {
+		"id": "ac",
+		"source": "G-A_00",
+		"target": "TA-A1_00"
+	}
+},
+{
+	"data": {
+		"id": "bd",
+		"source": "G-B_00",
+		"target": "TA-A2_00"
+	}
+},
+{
+	"data": {
+		"id": "bc",
+		"source": "G-B_00",
+		"target": "TA-A1_00"
+	}
+},
+{
+	"data": {
+		"id": "ad",
+		"source": "G-A_00",
+		"target": "TA-A2_00"
+	}
+},
+{
+	"data": {
+		"id": "bd",
+		"source": "G-B_00",
+		"target": "TA-A2_00"
+	}
+},
+{
+	"data": {
+		"id": "eh",
+		"source": "TH-A1_00",
+		"target": "TH-B1_00"
+	}
+},
+{
+	"data": {
+		"id": "de",
+		"source": "TA-A2_00",
+		"target": "TH-A1_00"
+	}
+},
+{
+	"data": {
+		"id": "ge",
+		"source": "TH-A1_00",
+		"target": "TA-B2_00"
+	}
+},
+{
+	"data": {
+		"id": "gh",
+		"source": "TA-B2_00",
+		"target": "TH-B1_00"
+	}
+}
+]
