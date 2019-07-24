@@ -1,8 +1,8 @@
 [{
 	"data": {
-		"id": "G-A_00",
-		"name": "G-A",
-		"risk_score": 25.7697,
+		"id": "44826fa2-ae10-11e9-a259-186590db1841",
+		"name": "TH-A1",
+		"risk_score": 50.76671,
 		"threat_level": "low",
 		"status": "normal"
 	},
@@ -13,9 +13,9 @@
 },
 {
 	"data": {
-		"id": "G-B_00",
-		"name": "G-B",
-		"risk_score": 50.76671,
+		"id": "59b9a8f4-ae17-11e9-8c47-186590db1841",
+		"name": "TA-A1",
+		"risk_score": 29.7691,
 		"threat_level": "medium",
 		"status": "anomaly"
 	},
@@ -26,11 +26,12 @@
 },
 {
 	"data": {
-		"id": "TA-A1_00",
-		"name": "TA-A1",
-		"risk_score": 29.7691,
-		"threat_level": "low",
-		"status": "normal"
+		"id": "4482715a-ae10-11e9-b184-186590db1841",
+		"name": "TA-A2",
+		"risk_score": 25.7697,
+		"threat_level": "high",
+		"status": "quarantine"
+
 	},
 	"position": {
 		"x": 180,
@@ -39,11 +40,11 @@
 },
 {
 	"data": {
-		"id": "TA-A2_00",
-		"name": "TA-A2",
-		"risk_score": 28.76123,
-		"threat_level": "low",
-		"status": "normal"
+		"id": "G_A_00",
+		"name": "G-A",
+		"risk_score": "",
+		"threat_level": "",
+		"status": ""
 	},
 	"position": {
 		"x": 260,
@@ -51,11 +52,11 @@
 	}
 }, {
 	"data": {
-		"id": "TH-A1_00",
-		"name": "TH-A1",
-		"risk_score": 28.59123,
-		"threat_level": "low",
-		"status": "normal"
+		"id": "G_B_00",
+		"name": "G-B",
+		"risk_score": "",
+		"threat_level": "",
+		"status": ""
 	},
 	"position": {
 		"x": 370,
@@ -64,7 +65,7 @@
 },
 {
 	"data": {
-		"id": "TA-B1_00",
+		"id": "44827452-ae10-11e9-a8f0-186590db1841",
 		"name": "TA-B1",
 		"risk_score": 90.7123,
 		"threat_level": "high",
@@ -76,7 +77,7 @@
 	}
 }, {
 	"data": {
-		"id": "TA-B2_00",
+		"id": "448275ba-ae10-11e9-932a-186590db1841",
 		"name": "TA-B2",
 		"risk_score": 26.9123,
 		"threat_level": "low",
@@ -89,11 +90,11 @@
 },
 {
 	"data": {
-		"id": "TH-B1_00",
+		"id": "448272e2-ae10-11e9-b15b-186590db1841",
 		"name": "TH-B1",
 		"risk_score": 29.97123,
-		"threat_level": "low",
-		"status": "normal"
+		"threat_level": "high",
+		"status": "quarantine"
 	},
 	"position": {
 		"x": 500,
@@ -104,78 +105,50 @@
 {
 	"data": {
 		"id": "ab",
-		"source": "G-A_00",
-		"target": "G-B_00"
+		"source": "G_A_00",
+		"target": "G_B_00"
 	}
 },
 {
 	"data": {
 		"id": "cd",
-		"source": "TA-A1_00",
-		"target": "TA-A2_00"
+		"source": "59b9a8f4-ae17-11e9-8c47-186590db1841",
+		"target": "44826fa2-ae10-11e9-a259-186590db1841"
 	}
 },
 {
 	"data": {
 		"id": "ac",
-		"source": "G-A_00",
-		"target": "TA-A1_00"
+		"source": "G_A_00",
+		"target": "59b9a8f4-ae17-11e9-8c47-186590db1841"
 	}
 },
 {
 	"data": {
 		"id": "bd",
-		"source": "G-B_00",
-		"target": "TA-A2_00"
+		"source": "G_B_00",
+		"target": "448275ba-ae10-11e9-932a-186590db1841"
 	}
 },
 {
 	"data": {
 		"id": "bc",
-		"source": "G-B_00",
-		"target": "TA-A1_00"
+		"source": "G_B_00",
+		"target": "59b9a8f4-ae17-11e9-8c47-186590db1841"
 	}
 },
 {
 	"data": {
 		"id": "ad",
-		"source": "G-A_00",
-		"target": "TA-A2_00"
+		"source": "G_A_00",
+		"target": "44826fa2-ae10-11e9-a259-186590db1841"
 	}
 },
 {
 	"data": {
 		"id": "bd",
-		"source": "G-B_00",
-		"target": "TA-A2_00"
-	}
-},
-{
-	"data": {
-		"id": "eh",
-		"source": "TH-A1_00",
-		"target": "TH-B1_00"
-	}
-},
-{
-	"data": {
-		"id": "de",
-		"source": "TA-A2_00",
-		"target": "TH-A1_00"
-	}
-},
-{
-	"data": {
-		"id": "ge",
-		"source": "TH-A1_00",
-		"target": "TA-B2_00"
-	}
-},
-{
-	"data": {
-		"id": "gh",
-		"source": "TA-B2_00",
-		"target": "TH-B1_00"
+		"source": "G_B_00",
+		"target": "4482715a-ae10-11e9-b184-186590db1841"
 	}
 }
 ]
